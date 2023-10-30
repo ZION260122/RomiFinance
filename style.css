@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Relative",sans-serif;
+}
+body{
+    background-color: #191919;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grey{
+    color:#c1bdbd ;
+}
+.white{
+    color: white;
+}
+.text-small{
+    font-size: small;
+}
+.bolder{
+    font-weight: bolder;
+}
+.text-align-left{
+    margin-left: -150px;
+}
+/*navbar*/
+.nav{
+    height: 13vh;
+    width: 100vw;
+}
+/*head-img */
+.head-img{
+    margin-left: -15px;
+    cursor: pointer;
+    color: white;
+    padding: 0px 11px;
+} 
+.img{
+    width: 6vw;
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+/*ul*/
+.head-ul ul{
+    padding-bottom: 15px;
+    color: grey;
+}
+.head-ul li{
+    font-size: 1.2rem;
+    padding: 0px 13px;
+    list-style: none;
+}
+.head-ul a{
+    text-decoration: none;
+    color: grey;
+}
+.head-ul a:hover{
+    color: whitesmoke;
+}
+/*header-button*/
+.head-button{    
+    color: white;
+}
+.head-button a{    
+    text-decoration: none;
+    color: white;
+    padding: 0px 18px;
+}
+.trade{
+    height: 4vh;
+    background-color: #3eb489;
+    border: 1px solid #3eb489;
+    border-radius: 5px;
+}
+.trade:hover{
+    background-color: #308d6b;
+    border: 1px solid #308d6b;
+}
+.Connect-Wallet{
+    margin-left:10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 10vw;
+}
+.Connect-Wallet:hover{
+    opacity: 0.75;
+}
+.Connect-Wallet img{
+    padding-right : 5px;
+}
+.Networks{
+    margin-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 4vw;
+    height: 5vh;
+}
+.Networks:hover{
+    opacity: 0.75;
+}
+.bar{
+    color: grey;
+    height: 21px;
+}
+.Networks img{
+    padding: 0px 2px;
+    height: 4vh;
+}
+.hr{
+    opacity: 0.2;
+}
+/*head*/
+.head{
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+.head-left{
+    width: 50vw;
+}
+.head-right{
+    width: 50vw;
+}
+
+.head-text{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Relative",sans-serif;
+}
+.small-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head-small-text{
+    font-size: 1.25rem;
+    color: #c1bdbd;
+}
+.button{
+    width: 10vw;
+    color: white;
+    height: 5vh;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 2px solid #3eb489;
+    background-color: #3eb489;
+    border-radius: 5px;
+}
+.button:hover{
+    border: 2px solid #308d6b;
+    background-color: #308d6b;
+}
+/*navbar responsive*/
+.container{
+    display: none;
+}
+nav{
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 9px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav .fas{
+    color: white;
+    display: none;
+}
+/*box*/
+.mid-box{
+    margin: 10vh 5vw;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 28vw;
+    height: 8vh;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    border-radius: 3px;
+    margin: 20px 7px;
+    padding: 20px 15px;
+}
+.box img{
+    margin-right: 3.5vw;
+}
+.text-1{
+    font-size: 1.2rem;
+    color: #c1bdbd;
+    margin-bottom: 5px;
+}
+.text-2{
+    font-size: 1.5rem;
+    color: white;
+}
+/*mid-info*/
+.mid-info{
+    margin: 10vh 5vw;
+}
+.part{
+    width: 24vw;
+    padding: 10px;
+    margin: 0px 35px;
+}
+.part1{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+}
+.part1 div{
+    margin-left: 5px;
+}
+.part2{
+    font-size:1.2rem ;
+    padding-top:10px ;
+    color: #c1bdbd;
+}
+/*token*/
+.token{
+    margin: 10vh 5vw;
+}
+.token-head{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.token-mid{
+    margin: 5vh 1vw;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    border-radius: 3px;
+    width: 45vw;
+}
+.token-img{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.token-img div{
+    font-size: 1.3rem;
+}
+.token-img img{
+    margin-right: 10px;
+    width: 3vw;
+}
+.token-text{
+    margin: 18px 0px;
+    color: white;
+}
+.token-rate{
+    color: #c1bdbd;
+}
+.token-button{
+    margin: 25px 0px;
+}
+.buy{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #3eb489;
+    background-color: #3eb489;
+    border-radius: 5px;
+    margin-right:10px ;
+}
+.buy:hover{
+    border: 1px solid #308d6b;
+    background-color: #308d6b;
+}
+.readmore{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #c1bdbd;
+    border-radius: 5px;
+}
+.readmore:hover{
+    opacity: 0.75;
+}
+/*footer*/
+.footer{
+    padding: 20px;
+}
+.sponsers a{
+    margin: 10px 0;
+    padding: 7px 6vw;
+}
+.foot a{
+    margin-bottom:20px ;
+    padding: 0px 2vw;
+    text-decoration: none;
+    color: white;
+}
+/*earn*/
+/* tables-1 */
+.margin{
+    margin-top: 20px;
+}
+.Earn-content{
+    margin-bottom: 10vh;
+}
+.stats-table{
+    display: flex;
+    margin-left: 8vw;
+    /* justify-content: center; */
+    margin-top: 2.3vh;
+}
+.T1{
+    border: 0.1px solid  rgb(88, 83, 83);
+    color: hsla(0,0%,100%,.7);
+    height: 62vh;
+    margin: 2vh;
+    background-color:  #101010;
+    border-radius: 5px;
+}
+.T1-bel{
+    position: relative;
+    color: hsla(0,0%,100%,.7);
+    background-color:  #101010;
+    display: flex;
+}
+.table2{
+    margin-bottom: 15vh;
+}
+.T1 ul{
+    list-style-type: none;
+}
+
+.T1 ul li{
+    margin: 10px;
+    font-size: 2.5vh;
+    width: 17vw;
+}
+.T1 ul hr{
+    opacity: 0.2;
+}
+.Price {
+    margin-left: 0.5vw;
+    text-align: right;
+    color: white;
+}
+.table-button a{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #3eb489;
+    background-color: #3eb489;
+    border-radius: 5px;
+}
+.table-button a:hover{
+    border: 1px solid #308d6b;
+    background-color: #308d6b;
+}
+.table3-set{
+    margin-left: -8vw ;
+}
+.table3{
+    height: 53vh;
+}
+.Vest-table-height{
+    height: 35vh;
+}
+/*dashboard*/
+.dashboard-bottom-table{
+    width: 80vw;
+    height: 60vh;
+}
+.dashboard-last-table ul li{
+    width: 11vw;
+}
+.dashboard-bottom-table b img{
+    width: 15px;
+    height: 13px;
+}
+.dashboard-imgtable{
+    padding: 0.8vh 0;
+}
+.first{
+    margin-left: 0;
+}
+.first img{
+    width: 40px;
+}
+.first-token{
+    margin-left: 5vw;
+}
+.first-token img{
+    width: 40px;
+}
+.second{
+    text-align: left;
+    padding: 5px;
+}
+.third img{
+    width: 18px;
+}
+.composition-token{
+    text-align: left;
+    margin-left: 20px;
+}
+.Pricenew{
+    margin-left: 0.5vw;
+    text-align: right;
+    color: white;
+}
+.Pricenew li{
+    padding: 13px 15px;
+}
+.dashboard-token-outer{
+    display: flex;
+    background-color:  #101010;
+    border: 0.3px solid  rgb(88, 83, 83);
+    padding: 20px;
+    height: 39vh;
+    width: 35vw;
+    margin: 30px;
+}
+.dashboard-token-first ul li{
+    list-style: none;
+}
+.dashboard-token-first ul hr{
+    opacity: 0.5;
+    margin-left: -20px;
+}
+.dashboard-token-tables ul li{
+   list-style: none;
+   width: 11vw;
+   padding: 10px 0;
+}
+.dashboard-token-second svg{
+    width: 14vw;
+}
+/*responsive last table into four tables*/
+.resp-last-table{
+    margin-top: -8vh;
+    display: none;
+}
+.resp-table-out{
+    padding: 20px;
+    height: 25vh;
+    width: 35vw;
+    margin: 30px;
+    background-color:  #101010;
+    border: 0.3px solid  rgb(88, 83, 83);
+}
+.resp-table-out ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.resp-table-out ul hr{
+    opacity: 0.5;
+}
+.resp-table-in{
+    display: flex;
+}
+.resp-table-in ul li{
+    list-style: none;
+}
+.resp-table-in >ul:first-child{
+    align-items:start;
+}
+.resp-table-in >ul:first-child li{
+    margin: 1.5vh 0;
+}
+.resp-table-in >ul:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.resp-table-in >ul:last-child li{
+    margin-left: 15vw;
+    margin-top: 1vh;
+    margin-bottom:1vh ;
+}
+.down-arrow img{
+    padding: 5px;
+    width: 18px;
+}
+.resp-table-img img{
+    padding: 10px;
+    width: 20px;
+}
+@media only screen and (max-width: 1050px){
+    .nav{
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+    nav .fas{
+        display: block;
+    }
+    nav ul{
+        background-color: #1a1a1f;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 300px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    .fa-bars{
+        margin-left: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 40px;
+        right: 25px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 900px){
+    .dashboard-bottom-table{
+        display: none;
+    }
+    .resp-last-table{
+        display: block;
+    }
+}
+@media only screen and (max-width: 850px) {
+    /*home*/
+    .mid-box,.token-info,.mid-info,.stats-table,.token-out {
+        flex-direction: column;
+    }
+    .head-left,.box,.token-mid{
+        width: 80vw;
+    }
+    .head-right{
+        width: 0;
+    }
+    .button{
+        width: 150px;
+    }
+    .part{
+        height: 5vh 0;
+        width: 70vw;
+        height: 25vh;
+    }
+    /*dashboard*/
+    .Vest-table-height{
+        height: 34vh;
+    }
+    .T1 ul li{
+        width: 40vw;
+    }
+    .dashboard-token-outer{
+        width: 60vw;
+    }
+    .first-token{
+        margin-left: 10vw
+    }
+    .dashboard-token-tables ul li,.dashboard-token-second svg{
+        width: 20vw;
+    }
+    .dashboard-bottom-table{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .last-table-part1{
+        flex-direction: column;
+    }
+    .resp-table-out{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width: 630px){
+    .T1{
+        width: 90vw;
+    }
+    .Networks{
+        width: 9vw;
+    }
+    .Connect-Wallet{
+        width: 14vw;
+    }
+}
+@media only screen and (max-width: 550px){
+    .img{
+        width: 10vw;
+    }
+    .head-img{
+        margin-left: 0;
+    } 
+    .text{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 450px){
+    .part{
+        width: 90vw;
+    }
+    .T1{
+        height: 62vh;
+    }
+    .Vest-table-height{
+        height: 36vh;
+    }
+    .first-token{
+        margin-left: 20vw
+    }
+}
